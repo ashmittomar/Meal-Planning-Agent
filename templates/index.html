@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meal Planner Agent</title>
+
+
+    <!-- =========================
+         WEBSITE ICON
+    ========================== -->
+
+    <link rel="icon" type="image/png" href="static/logo.jpg">
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+
+    <div class="page">
+
+
+        <!-- =========================
+         HEADER
+    ========================== -->
+
+        <header class="header">
+
+            <div class="logo">
+
+                <div>
+
+                    <h1>
+                        Meal Plan
+                    </h1>
+
+                    <p>
+                        <b>Intelligent meal planning</b>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================
+         MAIN
+    ========================== -->
+
+        <main class="main-container">
+
+
+            <!-- =========================
+             INTRO
+        ========================== -->
+
+            <section class="intro">
+
+                <span class="badge">
+                    PERSONALIZED NUTRITION
+                </span>
+
+
+                <h2>
+
+                    Build a meal plan
+
+                    <span>
+                        that fits you.
+                    </span>
+
+                </h2>
+
+
+                <p>
+
+                    Tell us a little about yourself and our
+                    meal planning agent will create a
+                    personalized nutrition plan based on
+                    your goals.
+
+                </p>
+
+            </section>
+
+
+            <!-- =========================
+             FORM CARD
+        ========================== -->
+
+            <section class="form-card">
+
+
+                <div class="card-header">
+
+                    <h3>
+                        Your Profile
+                    </h3>
+
+                    <p>
+                        Enter your information to get started.
+                    </p>
+
+                </div>
+
+
+                <form id="mealForm">
+
+
+                    <!-- =========================
+                     FORM GRID
+                ========================== -->
+
+                    <div class="form-grid">
+
+
+                        <!-- AGE -->
+
+                        <div class="form-group">
+
+                            <label for="age">
+
+                                Age
+
+                            </label>
+
+
+                            <input type="number" id="age" name="age" placeholder="Enter your age" min="1" max="120"
+                                required>
+
+                        </div>
+
+
+                        <!-- WEIGHT -->
+
+                        <div class="form-group">
+
+                            <label for="weight">
+
+                                Weight
+
+                                <span>
+                                    (kg)
+                                </span>
+
+                            </label>
+
+
+                            <input type="number" id="weight" name="weight" placeholder="Enter your weight" step="0.1"
+                                min="1" required>
+
+                        </div>
+
+
+                        <!-- HEIGHT -->
+
+                        <div class="form-group">
+
+                            <label for="height">
+
+                                Height
+
+                                <span>
+                                    (cm)
+                                </span>
+
+                            </label>
+
+
+                            <input type="number" id="height" name="height" placeholder="Enter your height" step="0.1"
+                                min="1" required>
+
+                        </div>
+
+
+                        <!-- GENDER -->
+
+                        <div class="form-group">
+
+                            <label for="gender">
+
+                                Gender
+
+                            </label>
+
+
+                            <select id="gender" name="gender" required>
+
+                                <option value="" disabled selected>
+                                    Select gender
+                                </option>
+
+
+                                <option value="male">
+                                    Male
+                                </option>
+
+
+                                <option value="female">
+                                    Female
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- ACTIVITY LEVEL -->
+
+                        <div class="form-group">
+
+                            <label for="activity_level">
+
+                                Activity Level
+
+                            </label>
+
+
+                            <select id="activity_level" name="activity_level" required>
+
+                                <option value="" disabled selected>
+                                    Select activity level
+                                </option>
+
+
+                                <option value="sedentary">
+                                    Sedentary
+                                </option>
+
+
+                                <option value="light">
+                                    Light
+                                </option>
+
+
+                                <option value="moderate">
+                                    Moderate
+                                </option>
+
+
+                                <option value="active">
+                                    Active
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- GOAL -->
+
+                        <div class="form-group">
+
+                            <label for="goal">
+
+                                Goal
+
+                            </label>
+
+
+                            <select id="goal" name="goal" required>
+
+                                <option value="" disabled selected>
+                                    Select your goal
+                                </option>
+
+
+                                <option value="weight_loss">
+                                    Weight Loss
+                                </option>
+
+
+                                <option value="maintenance">
+                                    Maintenance
+                                </option>
+
+
+                                <option value="muscle_gain">
+                                    Muscle Gain
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- DIET -->
+
+                        <div class="form-group">
+
+                            <label for="diet">
+
+                                Diet
+
+                            </label>
+
+
+                            <select id="diet" name="diet" required>
+
+                                <option value="" disabled selected>
+                                    Select diet
+                                </option>
+
+
+                                <option value="vegetarian">
+                                    Vegetarian
+                                </option>
+
+
+                                <option value="vegan">
+                                    Vegan
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- MEALS PER DAY -->
+
+                        <div class="form-group">
+
+                            <label for="meals_per_day">
+
+                                Meals per day
+
+                            </label>
+
+
+                            <select id="meals_per_day" name="meals_per_day" required>
+
+                                <option value="" disabled selected>
+                                    Select number of meals
+                                </option>
+
+
+                                <option value="3">
+                                    3 Meals
+                                </option>
+
+
+                                <option value="4">
+                                    4 Meals
+                                </option>
+
+
+                                <option value="5">
+                                    5 Meals
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- =========================
+                     FOODS TO AVOID
+                ========================== -->
+
+                    <div class="form-group full-width">
+
+
+                        <label for="avoid_foods">
+
+                            Foods to avoid
+
+                            <span>
+                                (optional)
+                            </span>
+
+                        </label>
+
+
+                        <input type="text" id="avoid_foods" name="avoid_foods"
+                            placeholder="Example: peanuts, banana, tofu">
+
+
+                        <small>
+
+                            Separate multiple foods with commas.
+
+                        </small>
+
+
+                    </div>
+
+
+                    <!-- =========================
+                     GENERATE BUTTON
+                ========================== -->
+
+                    <button type="submit" class="generate-button" id="generateButton">
+
+                        <span id="buttonText">
+
+                            Generate My Meal Plan
+
+                        </span>
+
+
+                        <span class="arrow" id="buttonArrow">
+
+                            →
+
+                        </span>
+
+                    </button>
+
+
+                </form>
+
+
+                <!-- =========================
+                 LOADING MESSAGE
+            ========================== -->
+
+                <div id="loadingMessage" class="loading-message" style="display: none;">
+
+                    Generating your personalized
+                    meal plan...
+
+                </div>
+
+
+                <!-- =========================
+                 ERROR MESSAGE
+            ========================== -->
+
+                <div id="errorMessage" class="error-message" style="display: none;">
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+             RESULT SECTION
+        ========================== -->
+
+            <section id="resultSection" class="result-section" style="display: none;">
+
+
+                <!-- RESULT HEADER -->
+
+                <div class="result-header">
+
+
+                    <span class="badge">
+
+                        YOUR PERSONALIZED PLAN
+
+                    </span>
+
+
+                    <h2>
+
+                        Your Meal Plan
+
+                    </h2>
+
+
+                    <p id="evaluationReason"></p>
+
+
+                </div>
+
+
+                <!-- =========================
+                 NUTRITION SUMMARY
+            ========================== -->
+
+                <div class="nutrition-summary">
+
+
+                    <div class="nutrition-card">
+
+                        <span>
+                            Daily Calories
+                        </span>
+
+
+                        <strong id="dailyCalories">
+                            -
+                        </strong>
+
+
+                        <small>
+                            kcal
+                        </small>
+
+                    </div>
+
+
+                    <div class="nutrition-card">
+
+                        <span>
+                            Protein Target
+                        </span>
+
+
+                        <strong id="proteinTarget">
+                            -
+                        </strong>
+
+
+                        <small>
+                            grams
+                        </small>
+
+                    </div>
+
+
+                    <div class="nutrition-card">
+
+                        <span>
+                            Actual Calories
+                        </span>
+
+
+                        <strong id="actualCalories">
+                            -
+                        </strong>
+
+
+                        <small>
+                            kcal
+                        </small>
+
+                    </div>
+
+
+                    <div class="nutrition-card">
+
+                        <span>
+                            Actual Protein
+                        </span>
+
+
+                        <strong id="actualProtein">
+                            -
+                        </strong>
+
+
+                        <small>
+                            grams
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- =========================
+                 MEALS
+            ========================== -->
+
+                <div id="mealsContainer" class="meals-container">
+
+                </div>
+
+
+                <!-- =========================
+                 EVALUATION
+            ========================== -->
+
+                <div class="evaluation-card">
+
+
+                    <h3>
+
+                        Plan Evaluation
+
+                    </h3>
+
+
+                    <div class="evaluation-grid">
+
+
+                        <div>
+
+                            <span>
+                                Calories Difference
+                            </span>
+
+
+                            <strong id="calorieDifference">
+                                -
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Protein Difference
+                            </span>
+
+
+                            <strong id="proteinDifference">
+                                -
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Status
+                            </span>
+
+
+                            <strong id="evaluationStatus">
+                                -
+                            </strong>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+             HOW IT WORKS
+        ========================== -->
+
+            <section class="info-section">
+
+
+                <!-- STEP 1 -->
+
+                <div class="info-item">
+
+
+                    <div class="info-number">
+                        01
+                    </div>
+
+
+                    <div>
+
+                        <h4>
+                            Analyze
+                        </h4>
+
+
+                        <p>
+
+                            Your profile and nutritional
+                            requirements are calculated.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- STEP 2 -->
+
+                <div class="info-item">
+
+
+                    <div class="info-number">
+                        02
+                    </div>
+
+
+                    <div>
+
+                        <h4>
+                            Plan
+                        </h4>
+
+
+                        <p>
+
+                            The agent selects meals based
+                            on your requirements.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- STEP 3 -->
+
+                <div class="info-item">
+
+
+                    <div class="info-number">
+                        03
+                    </div>
+
+
+                    <div>
+
+                        <h4>
+                            Evaluate
+                        </h4>
+
+
+                        <p>
+
+                            The generated plan is checked
+                            and improved when necessary.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+        </main>
+
+
+        <!-- =========================
+         FOOTER
+    ========================== -->
+
+        <footer>
+
+            <p>
+
+                Made by Ashmit Tomar
+
+                <span>
+                    •
+                </span>
+
+                Personalized meal planning
+
+            </p>
+
+        </footer>
+
+
+    </div>
+
+
+    <!-- =========================
+     EXTERNAL JAVASCRIPT
+========================== -->
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+</body>
+
+</html>

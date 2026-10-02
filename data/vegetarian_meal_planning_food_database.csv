@@ -1,0 +1,222 @@
+food,category,serving_size_g,calories,protein_g,carbs_g,fat_g,fiber_g,vegetarian,vegan
+White Rice,Grains,100,130,2.7,28.2,0.3,0.4,True,True
+Brown Rice,Grains,100,111,2.6,23.0,0.9,1.8,True,True
+Basmati Rice,Grains,100,121,3.5,25.2,0.4,0.4,True,True
+Red Rice,Grains,100,111,2.6,23.0,0.9,1.8,True,True
+Black Rice,Grains,100,145,4.0,31.0,0.8,2.2,True,True
+Quinoa,Grains,100,120,4.4,21.3,1.9,2.8,True,True
+Oats,Grains,100,389,16.9,66.3,6.9,10.6,True,True
+Rolled Oats,Grains,100,379,13.2,67.7,6.5,10.1,True,True
+Steel Cut Oats,Grains,100,375,12.5,67.5,6.3,10.0,True,True
+Dalia,Grains,100,342,12.3,69.0,1.3,10.0,True,True
+Barley,Grains,100,354,12.5,73.5,2.3,17.3,True,True
+Millet,Grains,100,378,11.0,72.9,4.2,8.5,True,True
+Ragi,Grains,100,336,7.3,72.0,1.3,11.2,True,True
+Bajra,Grains,100,361,11.6,67.5,5.0,11.0,True,True
+Jowar,Grains,100,329,10.4,72.6,3.1,6.7,True,True
+Maize,Grains,100,365,9.4,74.3,4.7,7.3,True,True
+Cornmeal,Grains,100,362,8.1,76.9,3.6,7.3,True,True
+Buckwheat,Grains,100,343,13.3,71.5,3.4,10.0,True,True
+Amaranth,Grains,100,371,13.6,65.3,7.0,6.7,True,True
+Whole Wheat,Grains,100,340,13.2,72.0,2.5,10.7,True,True
+Whole Wheat Flour,Flours,100,340,13.7,72.6,2.5,10.7,True,True
+Multigrain Flour,Flours,100,350,12.0,68.0,4.0,9.0,True,True
+Besan,Flours,100,387,22.4,57.8,6.7,10.8,True,True
+Rice Flour,Flours,100,366,5.9,80.1,1.4,2.4,True,True
+Ragi Flour,Flours,100,336,7.3,72.0,1.3,11.2,True,True
+Maida,Flours,100,364,10.3,76.3,1.0,2.7,True,True
+Roti,Breads,100,297,9.0,55.0,7.0,11.0,True,True
+Chapati,Breads,100,297,9.0,55.0,7.0,11.0,True,True
+Phulka,Breads,100,250,8.0,50.0,2.5,8.0,True,True
+Naan,Breads,100,310,8.0,50.0,9.0,2.5,True,False
+Tandoori Roti,Breads,100,270,8.0,50.0,4.0,6.0,True,True
+Plain Paratha,Breads,100,300,7.0,45.0,10.0,5.0,True,True
+Aloo Paratha,Breads,100,220,5.0,32.0,8.0,4.0,True,True
+Methi Paratha,Breads,100,260,7.0,38.0,9.0,6.0,True,True
+Thepla,Breads,100,280,7.0,45.0,8.0,6.0,True,True
+Puri,Breads,100,330,6.0,45.0,14.0,3.0,True,True
+Brown Bread,Breads,100,247,13.0,41.0,4.2,7.0,True,True
+White Bread,Breads,100,266,8.9,49.0,3.2,2.7,True,True
+Multigrain Bread,Breads,100,250,10.0,43.0,4.0,6.0,True,True
+Pav,Breads,100,270,9.0,52.0,3.5,2.5,True,True
+Toor Dal,Pulses,100,343,22.0,63.0,1.7,15.0,True,True
+Moong Dal,Pulses,100,347,24.0,63.0,1.2,16.0,True,True
+Masoor Dal,Pulses,100,352,25.0,63.0,1.1,11.0,True,True
+Urad Dal,Pulses,100,341,25.0,59.0,1.4,18.0,True,True
+Chana Dal,Pulses,100,364,20.8,60.0,5.6,12.2,True,True
+Green Moong,Pulses,100,347,24.0,63.0,1.2,16.0,True,True
+Whole Masoor,Pulses,100,352,25.0,63.0,1.1,11.0,True,True
+Rajma,Pulses,100,333,24.0,60.0,0.8,24.0,True,True
+Black Rajma,Pulses,100,330,23.5,59.0,1.0,23.0,True,True
+Chickpeas,Pulses,100,364,19.0,61.0,6.0,17.0,True,True
+Black Chickpeas,Pulses,100,364,19.0,61.0,6.0,17.0,True,True
+White Chickpeas,Pulses,100,364,19.0,61.0,6.0,17.0,True,True
+Black Eyed Peas,Pulses,100,336,24.0,60.0,1.3,11.0,True,True
+Lobia,Pulses,100,336,24.0,60.0,1.3,11.0,True,True
+Soybeans,Pulses,100,446,36.5,30.2,19.9,9.3,True,True
+Edamame,Pulses,100,121,11.9,8.9,5.2,5.2,True,True
+Green Peas,Pulses,100,81,5.4,14.5,0.4,5.7,True,True
+Dried Peas,Pulses,100,341,24.6,60.0,1.2,25.0,True,True
+Tofu,Plant Protein,100,76,8.0,1.9,4.8,0.3,True,True
+Firm Tofu,Plant Protein,100,144,17.3,2.8,8.7,2.3,True,True
+Soy Chunks,Plant Protein,100,345,52.0,33.0,0.5,13.0,True,True
+Tempeh,Plant Protein,100,193,19.0,9.4,11.0,4.1,True,True
+Seitan,Plant Protein,100,141,25.0,12.0,2.0,0.6,True,True
+Whole Milk,Dairy,100,61,3.2,4.8,3.3,0.0,True,False
+Toned Milk,Dairy,100,58,3.0,4.7,3.0,0.0,True,False
+Low Fat Milk,Dairy,100,42,3.4,5.0,1.0,0.0,True,False
+Skim Milk,Dairy,100,34,3.4,5.0,0.1,0.0,True,False
+Curd,Dairy,100,60,3.5,4.7,3.0,0.0,True,False
+Greek Yogurt,Dairy,100,59,10.0,3.6,0.4,0.0,True,False
+Buttermilk,Dairy,100,40,3.3,4.8,1.0,0.0,True,False
+Paneer,Dairy,100,265,18.0,6.0,20.0,0.0,True,False
+Low Fat Paneer,Dairy,100,145,18.0,3.0,7.0,0.0,True,False
+Cottage Cheese,Dairy,100,98,11.1,3.4,4.3,0.0,True,False
+Cheddar Cheese,Dairy,100,403,25.0,1.3,33.0,0.0,True,False
+Mozzarella,Dairy,100,280,28.0,3.1,17.0,0.0,True,False
+Lassi,Dairy,100,70,3.0,8.0,2.0,0.0,True,False
+Potato,Vegetables,100,77,2.0,17.5,0.1,2.2,True,True
+Sweet Potato,Vegetables,100,86,1.6,20.1,0.1,3.0,True,True
+Carrot,Vegetables,100,41,0.9,9.6,0.2,2.8,True,True
+Spinach,Vegetables,100,23,2.9,3.6,0.4,2.2,True,True
+Broccoli,Vegetables,100,34,2.8,7.0,0.4,2.6,True,True
+Cauliflower,Vegetables,100,25,1.9,5.0,0.3,2.0,True,True
+Cabbage,Vegetables,100,25,1.3,5.8,0.1,2.5,True,True
+Red Cabbage,Vegetables,100,31,1.4,7.4,0.2,2.1,True,True
+Capsicum,Vegetables,100,31,1.0,6.0,0.3,2.1,True,True
+Green Bell Pepper,Vegetables,100,20,0.9,4.6,0.2,1.7,True,True
+Red Bell Pepper,Vegetables,100,31,1.0,6.0,0.3,2.1,True,True
+Tomato,Vegetables,100,18,0.9,3.9,0.2,1.2,True,True
+Onion,Vegetables,100,40,1.1,9.3,0.1,1.7,True,True
+Cucumber,Vegetables,100,15,0.7,3.6,0.1,0.5,True,True
+Beetroot,Vegetables,100,43,1.6,10.0,0.2,2.8,True,True
+Radish,Vegetables,100,16,0.7,3.4,0.1,1.6,True,True
+Turnip,Vegetables,100,28,0.9,6.4,0.1,1.8,True,True
+Bottle Gourd,Vegetables,100,15,0.6,3.4,0.1,1.2,True,True
+Bitter Gourd,Vegetables,100,17,1.0,3.7,0.2,2.8,True,True
+Ladyfinger,Vegetables,100,33,1.9,7.5,0.2,3.2,True,True
+Brinjal,Vegetables,100,25,1.0,5.9,0.2,3.0,True,True
+Mushroom,Vegetables,100,22,3.1,3.3,0.3,1.0,True,True
+Green Beans,Vegetables,100,31,1.8,7.0,0.2,2.7,True,True
+Zucchini,Vegetables,100,17,1.2,3.1,0.3,1.0,True,True
+Pumpkin,Vegetables,100,26,1.0,6.5,0.1,0.5,True,True
+Drumstick,Vegetables,100,64,9.4,8.3,1.4,2.0,True,True
+Raw Banana,Vegetables,100,122,1.3,31.0,0.4,2.6,True,True
+Green Papaya,Vegetables,100,43,0.5,10.0,0.3,1.7,True,True
+Corn,Vegetables,100,96,3.4,21.0,1.5,2.4,True,True
+Arbi,Vegetables,100,142,0.5,34.6,0.1,5.1,True,True
+Yam,Vegetables,100,118,1.5,27.9,0.2,4.1,True,True
+Apple,Fruits,100,52,0.3,13.8,0.2,2.4,True,True
+Banana,Fruits,100,89,1.1,22.8,0.3,2.6,True,True
+Orange,Fruits,100,47,0.9,11.8,0.1,2.4,True,True
+Mango,Fruits,100,60,0.8,15.0,0.4,1.6,True,True
+Papaya,Fruits,100,43,0.5,10.8,0.3,1.7,True,True
+Pineapple,Fruits,100,50,0.5,13.1,0.1,1.4,True,True
+Watermelon,Fruits,100,30,0.6,7.6,0.2,0.4,True,True
+Muskmelon,Fruits,100,34,0.8,8.2,0.2,0.9,True,True
+Guava,Fruits,100,68,2.6,14.3,1.0,5.4,True,True
+Pomegranate,Fruits,100,83,1.7,18.7,1.2,4.0,True,True
+Grapes,Fruits,100,69,0.7,18.1,0.2,0.9,True,True
+Strawberry,Fruits,100,32,0.7,7.7,0.3,2.0,True,True
+Blueberry,Fruits,100,57,0.7,14.5,0.3,2.4,True,True
+Kiwi,Fruits,100,61,1.1,14.7,0.5,3.0,True,True
+Pear,Fruits,100,57,0.4,15.2,0.1,3.1,True,True
+Peach,Fruits,100,39,0.9,9.5,0.3,1.5,True,True
+Plum,Fruits,100,46,0.7,11.4,0.3,1.4,True,True
+Chikoo,Fruits,100,83,0.4,19.9,1.1,5.3,True,True
+Custard Apple,Fruits,100,94,2.1,23.6,0.6,4.4,True,True
+Lychee,Fruits,100,66,0.8,16.5,0.4,1.3,True,True
+Coconut,Fruits,100,354,3.3,15.2,33.5,9.0,True,True
+Avocado,Fruits,100,160,2.0,8.5,14.7,6.7,True,True
+Almonds,Nuts & Seeds,100,579,21.2,21.6,49.9,12.5,True,True
+Peanuts,Nuts & Seeds,100,567,25.8,16.1,49.2,8.5,True,True
+Cashews,Nuts & Seeds,100,553,18.2,30.2,43.9,3.3,True,True
+Walnuts,Nuts & Seeds,100,654,15.2,13.7,65.2,6.7,True,True
+Pistachios,Nuts & Seeds,100,562,20.2,27.2,45.3,10.3,True,True
+Hazelnuts,Nuts & Seeds,100,628,15.0,16.7,60.8,9.7,True,True
+Macadamia Nuts,Nuts & Seeds,100,718,7.9,13.8,75.8,8.6,True,True
+Chia Seeds,Nuts & Seeds,100,486,16.5,42.1,30.7,34.4,True,True
+Flax Seeds,Nuts & Seeds,100,534,18.3,28.9,42.2,27.3,True,True
+Pumpkin Seeds,Nuts & Seeds,100,559,30.2,10.7,49.1,6.0,True,True
+Sunflower Seeds,Nuts & Seeds,100,584,20.8,20.0,51.5,8.6,True,True
+Sesame Seeds,Nuts & Seeds,100,573,17.7,23.4,49.7,11.8,True,True
+Dates,Dry Fruits,100,282,2.5,75.0,0.4,8.0,True,True
+Raisins,Dry Fruits,100,299,3.1,79.2,0.5,3.7,True,True
+Dried Figs,Dry Fruits,100,249,3.3,63.9,0.9,9.8,True,True
+Dried Apricots,Dry Fruits,100,241,3.4,62.6,0.5,7.3,True,True
+Olive Oil,Oils & Fats,100,884,0.0,0.0,100.0,0.0,True,True
+Mustard Oil,Oils & Fats,100,884,0.0,0.0,100.0,0.0,True,True
+Groundnut Oil,Oils & Fats,100,884,0.0,0.0,100.0,0.0,True,True
+Coconut Oil,Oils & Fats,100,892,0.0,0.0,100.0,0.0,True,True
+Ghee,Oils & Fats,100,900,0.0,0.0,100.0,0.0,True,False
+Butter,Oils & Fats,100,717,0.9,0.1,81.1,0.0,True,False
+Roasted Chana,Snacks,100,364,19.0,61.0,6.0,17.0,True,True
+Makhana,Snacks,100,347,9.7,76.9,0.1,14.5,True,True
+Popcorn,Snacks,100,375,11.0,74.0,4.3,13.0,True,True
+Peanut Chikki,Snacks,100,520,15.0,55.0,27.0,4.0,True,True
+Peanut Butter,Spreads,100,588,25.0,20.0,50.0,6.0,True,True
+Almond Butter,Spreads,100,614,21.0,19.0,56.0,10.0,True,True
+Hummus,Spreads,100,166,7.9,14.3,9.6,6.0,True,True
+Tahini,Spreads,100,595,17.0,21.0,54.0,9.3,True,True
+Idli,Prepared Foods,100,58,2.0,12.0,0.4,0.8,True,True
+Dosa,Prepared Foods,100,168,3.9,29.0,3.7,1.5,True,True
+Masala Dosa,Prepared Foods,100,180,4.0,28.0,5.0,2.0,True,True
+Rava Dosa,Prepared Foods,100,170,4.0,28.0,4.0,1.5,True,True
+Poha,Prepared Foods,100,130,2.4,25.0,2.5,2.5,True,True
+Vegetable Poha,Prepared Foods,100,150,3.0,27.0,3.0,3.0,True,True
+Upma,Prepared Foods,100,140,3.0,24.0,4.0,2.5,True,True
+Vegetable Upma,Prepared Foods,100,150,3.0,25.0,4.5,3.0,True,True
+Besan Chilla,Prepared Foods,100,180,8.0,20.0,8.0,4.0,True,True
+Moong Dal Chilla,Prepared Foods,100,160,9.0,22.0,4.0,4.0,True,True
+Vegetable Sandwich,Prepared Foods,100,180,6.0,28.0,5.0,4.0,True,True
+Vegetable Oats,Prepared Foods,100,120,4.0,20.0,3.0,4.0,True,True
+Vegetable Dalia,Prepared Foods,100,120,4.0,22.0,2.0,4.0,True,True
+Sabudana Khichdi,Prepared Foods,100,170,2.0,28.0,6.0,1.5,True,True
+Vegetable Khichdi,Prepared Foods,100,120,4.0,21.0,2.0,3.0,True,True
+Dal Khichdi,Prepared Foods,100,130,4.5,22.0,2.5,3.0,True,True
+Dal Tadka,Indian Main Course,100,130,6.0,15.0,4.5,4.0,True,False
+Dal Fry,Indian Main Course,100,120,6.0,15.0,3.5,4.0,True,False
+Rajma Masala,Indian Main Course,100,150,7.0,20.0,5.0,6.0,True,True
+Chole,Indian Main Course,100,164,8.9,27.0,2.6,7.6,True,True
+Chana Masala,Indian Main Course,100,150,7.0,22.0,4.0,6.0,True,True
+Palak Paneer,Indian Main Course,100,150,8.0,7.0,9.0,2.0,True,False
+Matar Paneer,Indian Main Course,100,160,8.0,10.0,10.0,2.5,True,False
+Shahi Paneer,Indian Main Course,100,210,8.0,10.0,15.0,2.0,True,False
+Paneer Tikka,Indian Main Course,100,180,12.0,6.0,12.0,1.0,True,False
+Kadai Paneer,Indian Main Course,100,170,9.0,8.0,11.0,2.0,True,False
+Mixed Vegetable Curry,Indian Main Course,100,100,3.0,12.0,5.0,3.0,True,False
+Aloo Gobi,Indian Main Course,100,110,3.0,15.0,4.0,3.0,True,True
+Bhindi Masala,Indian Main Course,100,90,2.0,10.0,5.0,3.5,True,True
+Baingan Bharta,Indian Main Course,100,110,2.0,10.0,7.0,3.0,True,True
+Palak Corn,Indian Main Course,100,120,4.0,14.0,5.0,3.0,True,False
+Mushroom Masala,Indian Main Course,100,110,4.0,9.0,6.0,2.0,True,False
+Vegetable Pulao,Indian Main Course,100,150,3.0,25.0,4.0,2.0,True,False
+Vegetable Biryani,Indian Main Course,100,160,3.5,27.0,4.5,2.5,True,False
+Jeera Rice,Indian Main Course,100,150,3.0,28.0,3.0,0.8,True,False
+Lemon Rice,Indian Main Course,100,170,3.0,29.0,5.0,1.5,True,True
+Curd Rice,Indian Main Course,100,140,4.0,23.0,3.5,0.5,True,False
+Mixed Green Salad,Salads,100,35,1.5,7.0,0.3,2.5,True,True
+Cucumber Salad,Salads,100,20,0.7,4.0,0.1,0.5,True,True
+Sprouts Salad,Salads,100,80,5.0,13.0,1.0,4.0,True,True
+Chickpea Salad,Salads,100,120,6.0,18.0,3.0,5.0,True,True
+Fruit Salad,Salads,100,60,0.8,15.0,0.2,2.0,True,True
+Tomato Soup,Soups,100,35,1.0,7.0,0.5,1.0,True,True
+Vegetable Soup,Soups,100,40,1.5,7.0,0.7,1.5,True,True
+Lentil Soup,Soups,100,80,5.0,12.0,1.0,4.0,True,True
+Mushroom Soup,Soups,100,50,2.0,6.0,2.0,1.0,True,False
+Coconut Water,Beverages,100,19,0.7,3.7,0.2,1.1,True,True
+Soy Milk,Beverages,100,33,3.3,0.7,1.6,0.4,True,True
+Almond Milk,Beverages,100,15,0.6,0.3,1.2,0.2,True,True
+Oat Milk,Beverages,100,47,1.0,7.0,1.5,0.8,True,True
+Lemon Water,Beverages,100,5,0.1,1.5,0.0,0.1,True,True
+Green Tea,Beverages,100,1,0.0,0.2,0.0,0.0,True,True
+Black Coffee,Beverages,100,2,0.3,0.0,0.0,0.0,True,True
+Tea with Milk,Beverages,100,40,1.5,5.0,1.5,0.0,True,False
+Kheer,Desserts,100,120,3.0,18.0,4.0,0.3,True,False
+Rice Pudding,Desserts,100,130,3.0,20.0,4.0,0.2,True,False
+Gajar Halwa,Desserts,100,180,2.5,25.0,8.0,2.0,True,False
+Besan Ladoo,Desserts,100,450,10.0,45.0,25.0,5.0,True,False
+Gulab Jamun,Desserts,100,330,4.0,50.0,13.0,0.5,True,False
+Rasgulla,Desserts,100,186,4.0,35.0,3.0,0.0,True,False
+Jalebi,Desserts,100,380,3.0,65.0,12.0,0.5,True,True
+Fruit Yogurt,Desserts,100,100,4.0,15.0,2.5,0.5,True,False
